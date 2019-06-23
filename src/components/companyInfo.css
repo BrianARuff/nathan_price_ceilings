@@ -1,0 +1,40 @@
+.flex-col-2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  width: 1296px;
+  max-width: 100%;
+  min-width: 320px;
+}
+
+@media (max-width: 768px) {
+  .flex-col-2 {
+    display: block;
+  }
+}
+
+.flex-col-2 p {
+  width: 50%;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .flex-col-2 p {
+    width: 100%;
+    margin: 10px 0;
+    display: block;
+  }
+}
+
+.flex-col-2 img {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .flex-col-2 img {
+    width: 100%;
+    margin: 10px 0;
+    display: block;
+  }
+}

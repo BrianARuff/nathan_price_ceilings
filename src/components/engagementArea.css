@@ -1,0 +1,9 @@
+.ea-home {
+  background: url("../images/felipe-dolce-72986-unsplash\ 2.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  margin: 10px 0;
+}
