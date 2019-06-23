@@ -7,7 +7,7 @@ import Image from "../images/logo.png"
 const EngagementArea = () => {
   return (
     <div className="ea-home" >
-      <img src={Image} className="hide" />
+      <img src={Image} className="hide" alt="engagement area logo" />
     </div>
   )
 }
