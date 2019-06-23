@@ -35,8 +35,34 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          <span>Nathan Price Ceilings <sup>&copy;</sup> {new Date().getFullYear()}</span>
+        <footer className="contact-container">
+          <ul>
+            <li>Address</li>
+            <li>123 North Main Street</li>
+            <li>Gastonia, North Carolina</li>
+            <li>28056</li>
+          </ul>
+          <ul>
+            <li>Social Media</li>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+          </ul>
+          <ul>
+            <li>Contact Information</li>
+            <li>
+              <a href="mailto:brff19@gmail.com" target="_blank">brff19@gmail.com</a>
+            </li>
+            <li>
+              <a href="tel:+9802406927" target="_blank">980-240-6927</a>
+            </li>
+            <li>
+              <span>
+                Nathan Price Ceilings <sup>&copy;</sup>{" "}
+                {new Date().getFullYear()}
+              </span>
+            </li>
+          </ul>
         </footer>
       </div>
     </>

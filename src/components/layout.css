@@ -621,5 +621,41 @@ pre tt:after {
   }
 }
 
-@media only screen and (max-width: 768px) {
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  font-size: 16px;
+  margin: 20px 0;
+  border-radius: 3px;
+}
+
+.contact-container ul li:first-of-type {
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 10px 0;
+}
+
+.contact-container ul li {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0px;
+}
+
+.contact-container ul li a {
+  cursor: pointer;
+}
+
+@media (max-width: 425px) {
+  .contact-container {
+    display: block;
+  }
+  .contact-container ul {
+    margin: 20px 0;
+  }
+  .contact-container ul li:first-of-type {
+    list-style-type: none;
+    margin: 0px;
+  }
 }
