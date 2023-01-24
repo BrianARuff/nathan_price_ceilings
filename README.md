@@ -1,3 +1,1 @@
-https://www.nathanpriceceilings.com/
-
-Check the lighthouse ratings :)
+(Preview the Site on Netlify)[https://gracious-dubinsky-81fa9a.netlify.app/]
